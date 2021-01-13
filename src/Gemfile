@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+# rails newでrailsアプリの雛形を一斉に作れる。そのためのライブラリ
+# rails newするとrails側でもGemfileが作られ、それとこのファイルが置き換えられる
+gem 'rails', '~> 6.1.0'
