@@ -14,5 +14,5 @@ services:
       - ./src:/app
     ports:
       - "3000:3000"
-    depend_on:
+    depends_on:
       - db
